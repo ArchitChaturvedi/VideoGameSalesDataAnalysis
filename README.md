@@ -9,16 +9,15 @@ This project explores and visualizes global video game sales data to uncover tre
 - Analyze historical sales data for video games from 1980 to 2020.
 - Identify top-performing platforms, publishers, and genres.
 - Uncover regional trends and sales patterns in NA, EU, JP, and globally.
-- Provide actionable insights through interactive Power BI dashboards.
+- Provide actionable insights through interactive Power BI report with five dashboards.
 
 ---
 
 ## Tech Stack
 
 - **Power BI** – for data cleaning, modeling, and interactive dashboards
-- **Python** – data preprocessing and visualization
-  - Libraries: `pandas`, `matplotlib`, `seaborn`
-- **CSV dataset** – `vgsales.csv` (source: [Kaggle or other source if known])
+- **SQL** – data analysis and exploration
+- **CSV dataset** – `vgsales.csv` (source: Kaggle)
 
 ---
 
@@ -30,10 +29,3 @@ This project explores and visualizes global video game sales data to uncover tre
 - SQL file with queries for accessing significant information about CSV file
 
 ---
-
-## Project Structure
-VideoGameSalesDataAnalysis/
-├── VideoGameSales_Analysis.pbix 
-├── vgsales.csv 
-├── Analysis.ipynb 
-└── README.md 
