@@ -1,3 +1,4 @@
+SELECT COUNT(*) FROM vgsales;
 
 SELECT Platform, "Year", SUM("Global_Sales") AS Sales
 FROM vgsales
@@ -28,5 +29,12 @@ ORDER BY "EU_Sales" DESC;
 SELECT "Year", Publisher, Global_Sales
 FROM vgsales 
 ORDER BY "Year"
+
+
+SELECT Platform, COUNT(*) AS Num_Games
+FROM vgsales
+GROUP BY Platform
+HAVING COUNT(*) > 100
+ORDER BY Num_Games DESC;
 
 
